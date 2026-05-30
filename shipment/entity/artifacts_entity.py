@@ -8,10 +8,10 @@ class DataIngestionArtifacts:
 
 
 
-# @dataclass
-# class DataValidationArtifacts:
-#     data_drift_file_path: str
-#     validation_status: bool
+@dataclass
+class DataValidationArtifacts:
+    data_drift_file_path: str
+    validation_status: bool
 
 
 
